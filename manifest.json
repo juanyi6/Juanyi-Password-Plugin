@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "倦意密码本",
+    "description": "开源、免费、好用的的密码记录工具，支持一键批量导入和导出密码。",
+    "version": "1.2",
+    "permissions": ["storage"],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "assets/icon_128.png"
+        }
+    },
+    "icons": {
+        "128": "assets/icon_128.png"
+    }
+}
